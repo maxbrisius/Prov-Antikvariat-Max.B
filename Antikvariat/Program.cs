@@ -24,7 +24,15 @@ namespace Antikvariat
 
             if (buysell == "Book")
             {
-                System.Console.WriteLine("rarity: " + );
+                System.Console.WriteLine("rarity: " + t.rarity + "%");
+                System.Console.WriteLine("värde: " + t.actualValue);
+            }
+            //PrintInfo();
+
+            while (buysell !="Book")
+            {
+                System.Console.WriteLine("skriv in Book");
+                Console.ReadLine();
             }
 
            
