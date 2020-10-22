@@ -12,6 +12,7 @@ namespace Antikvariat
             antique t = new antique();
             //skapar en ny instans av books som i det här fallet heter antique då jag inte kan läsa instruktioner när jag behöver
 
+
             System.Console.WriteLine("vad heter boken?");
 
             t.name = Console.ReadLine();
